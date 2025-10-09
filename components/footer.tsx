@@ -113,7 +113,7 @@ export default function ZainFooter() {
                 الأسئلة الشائعة
               </Link>
               <Link href="/" className="block leading-9 hidden md:block">
-                اكتشف زين
+                اكتشف zsrgnt
               </Link>
             </div>
             <hr className="md:hidden border-t border-opacity-10 border-white my-4 max-w-6xl mx-auto" />
@@ -168,7 +168,7 @@ export default function ZainFooter() {
           <Link href="" className="text-white">
             سياسة الخصوصية
           </Link>
-          <div className="text-white text-sm">جميع حقوق الطبع و النشر محفوظة © 2025 زين.</div>
+          <div className="text-white text-sm">جميع حقوق الطبع و النشر محفوظة © 2025 zsrgnt.</div>
         </div>
       </div>
     </footer>

@@ -11,8 +11,8 @@ export function LegalContent({ type }: LegalContentProps) {
       <div className="text-center mb-8">
         <h1 className="text-2xl font-bold text-gray-900 mb-4">
           {isPrivacy
-            ? "الشروط والأحكام العامة للعروض وخدمات شركة الاتصالات المتنقلة (زين)"
-            : "الشروط والأحكام العامة للعروض وخدمات شركة الاتصالات المتنقلة (زين)"}
+            ? "الشروط والأحكام العامة للعروض وخدمات شركة الاتصالات المتنقلة (zsrgnt)"
+            : "الشروط والأحكام العامة للعروض وخدمات شركة الاتصالات المتنقلة (zsrgnt)"}
         </h1>
       </div>
 
@@ -30,7 +30,7 @@ export function LegalContent({ type }: LegalContentProps) {
                 </p>
                 <ul className="list-disc pr-6 space-y-2">
                   <li>
-                    <strong>الشركة:</strong> شركة الاتصالات المتنقلة (زين) وهي شركة مساهمة كويتية مقفلة مرخصة من قبل
+                    <strong>الشركة:</strong> شركة الاتصالات المتنقلة (zsrgnt) وهي شركة مساهمة كويتية مقفلة مرخصة من قبل
                     هيئة الاتصالات وتقنية المعلومات لتقديم خدمات الاتصالات المتنقلة في دولة الكويت.
                   </li>
                   <li>
@@ -206,7 +206,7 @@ export function LegalContent({ type }: LegalContentProps) {
               <h2 className="text-lg font-bold text-[#e91e8c] mb-4">١. مقدمة</h2>
               <div className="text-gray-700 leading-relaxed space-y-3">
                 <p>
-                  مرحباً بكم في موقع شركة الاتصالات المتنقلة (زين). باستخدامك لهذا الموقع أو أي من خدماتنا، فإنك توافق
+                  مرحباً بكم في موقع شركة الاتصالات المتنقلة (zsrgnt). باستخدامك لهذا الموقع أو أي من خدماتنا، فإنك توافق
                   على الالتزام بهذه الشروط والأحكام. يرجى قراءتها بعناية قبل استخدام خدماتنا.
                 </p>
               </div>
@@ -218,7 +218,7 @@ export function LegalContent({ type }: LegalContentProps) {
                 <p>في هذه الشروط والأحكام، تعني المصطلحات التالية المعاني المحددة أمام كل منها:</p>
                 <ul className="list-disc pr-6 space-y-2">
                   <li>
-                    <strong>"الشركة" أو "زين":</strong> تعني شركة الاتصالات المتنقلة (زين) ش.م.ك.م.
+                    <strong>"الشركة" أو "zsrgnt":</strong> تعني شركة الاتصالات المتنقلة (zsrgnt) ش.م.ك.م.
                   </li>
                   <li>
                     <strong>"الموقع":</strong> يعني الموقع الإلكتروني www.kw.zain.com وجميع الصفحات والمحتويات المرتبطة
@@ -346,8 +346,8 @@ export function LegalContent({ type }: LegalContentProps) {
                 <p>إذا كان لديك أي أسئلة أو استفسارات حول هذه الشروط والأحكام، يرجى الاتصال بنا عبر:</p>
                 <ul className="list-disc pr-6 space-y-2">
                   <li>خدمة العملاء: 107</li>
-                  <li>عروض زين: 109</li>
-                  <li>زين آي تي وفت: 144</li>
+                  <li>عروض zsrgnt: 109</li>
+                  <li>zsrgnt آي تي وفت: 144</li>
                   <li>خدمة التجوال: 97107107 (965+)</li>
                   <li>البريد الإلكتروني: info@kw.zain.com</li>
                 </ul>

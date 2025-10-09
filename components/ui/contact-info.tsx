@@ -18,9 +18,9 @@ export function ContactInfo() {
           <p className="text-gray-700 mb-6 leading-relaxed">لأية استفسارات أو مساعدة، لا تتردد في التواصل معنا عبر:</p>
 
           <div className="space-y-2 text-gray-700 mb-8">
-            <p>• خدمة عملاء زين: 107</p>
-            <p>• عروض زين: 109</p>
-            <p>• زين آي تي في: 144</p>
+            <p>• خدمة عملاء zsrgnt: 107</p>
+            <p>• عروض zsrgnt: 109</p>
+            <p>• zsrgnt آي تي في: 144</p>
             <p>• خدمة التجوال: 97107107 (965+)</p>
           </div>
 
@@ -30,7 +30,7 @@ export function ContactInfo() {
 
           <p className="text-gray-700 mb-6 leading-relaxed">ملاحظاتكم قيمة لنا وتساعدنا جاهدين لتوفير أفضل تجربة لكم</p>
 
-          <p className="text-gray-700 font-semibold">شكراً لاختياركم زين</p>
+          <p className="text-gray-700 font-semibold">شكراً لاختياركم zsrgnt</p>
         </div>
 
         <div className="space-y-4 mt-12">

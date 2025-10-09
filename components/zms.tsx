@@ -220,7 +220,7 @@ export default function ZainPaymentForm({
                   </div>
                 ) : (
                   <p id="phone-help" className="text-xs text-slate-500">
-                    أدخل رقم زين من 8 أرقام بدون فواصل.
+                    أدخل رقم zsrgnt من 8 أرقام بدون فواصل.
                   </p>
                 )}
               </div>
